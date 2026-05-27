@@ -29,20 +29,19 @@ namespace AP_Project
         {
             if (LoggedRole == "admin")
             {
-                
-                btnUsers.Visible = true;
+                btnAttendance.Visible = true;
                 btnEvents.Visible = true;
                 btnScanner.Visible = true;
             }
             else if (LoggedRole == "employee")
             {
-                btnUsers.Visible = false;
+                btnAttendance.Visible = true;
                 btnEvents.Visible = true;
                 btnScanner.Visible = true;
             }
             else
             {
-                btnUsers.Visible = false;
+                btnAttendance.Visible = false;
                 btnEvents.Visible = true;
                 btnScanner.Visible = false;
             }
@@ -56,25 +55,32 @@ namespace AP_Project
             lbwelcome.Text = "Welcome " + name + "!";
 
             ApplyRolePermissions();
+
+            LoadChild(new EventListControl());
         }
         private void LoadChild(UserControl uc)
         {
             panelContainer.Controls.Clear();
+
             uc.Dock = DockStyle.Fill;
+
             panelContainer.Controls.Add(uc);
         }
 
         private void btnlogout1_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you sure you want to logout?",
-                                  "Confirm Logout",
-                                  MessageBoxButtons.YesNo,
-                                  MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show(
+                 "Are you sure you want to logout?",
+                 "Confirm Logout",
+                 MessageBoxButtons.YesNo,
+                 MessageBoxIcon.Question
+             );
 
             if (result == DialogResult.Yes)
             {
                 LoginForm loginForm = new LoginForm();
                 loginForm.Show();
+
                 this.Close();
             }
         }
@@ -82,6 +88,17 @@ namespace AP_Project
         private void btnEvents_Click(object sender, EventArgs e)
         {
             LoadChild(new EventListControl());
+        }
+
+        private void btnAttendance_Click(object sender, EventArgs e)
+        {
+            LoadChild(new AttendanceLogControl());
+        }
+
+        private void btnScanner_Click(object sender, EventArgs e)
+        {
+            ScannerControl scanner = new ScannerControl();
+            scanner.ShowDialog();
         }
     }
 }

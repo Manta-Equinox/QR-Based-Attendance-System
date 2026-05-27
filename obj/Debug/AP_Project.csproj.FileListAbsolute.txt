@@ -57,3 +57,5 @@ C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attend
 C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.exe.config
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.AttendanceLogControl.resources
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.ScannerControl.resources

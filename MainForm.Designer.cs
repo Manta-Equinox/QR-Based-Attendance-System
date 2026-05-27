@@ -31,9 +31,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnScanner = new System.Windows.Forms.Button();
             this.btnEvents = new System.Windows.Forms.Button();
-            this.btnUsers = new System.Windows.Forms.Button();
+            this.btnAttendance = new System.Windows.Forms.Button();
             this.btnlogout1 = new System.Windows.Forms.Button();
-            this.btnexit = new System.Windows.Forms.Button();
             this.lbwelcome = new System.Windows.Forms.Label();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -44,9 +43,8 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnScanner);
             this.panel1.Controls.Add(this.btnEvents);
-            this.panel1.Controls.Add(this.btnUsers);
+            this.panel1.Controls.Add(this.btnAttendance);
             this.panel1.Controls.Add(this.btnlogout1);
-            this.panel1.Controls.Add(this.btnexit);
             this.panel1.Controls.Add(this.lbwelcome);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -66,6 +64,7 @@
             this.btnScanner.TabIndex = 5;
             this.btnScanner.Text = "Scanner";
             this.btnScanner.UseVisualStyleBackColor = true;
+            this.btnScanner.Click += new System.EventHandler(this.btnScanner_Click);
             // 
             // btnEvents
             // 
@@ -80,22 +79,23 @@
             this.btnEvents.UseVisualStyleBackColor = true;
             this.btnEvents.Click += new System.EventHandler(this.btnEvents_Click);
             // 
-            // btnUsers
+            // btnAttendance
             // 
-            this.btnUsers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsers.Location = new System.Drawing.Point(0, 0);
-            this.btnUsers.Margin = new System.Windows.Forms.Padding(4);
-            this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(259, 64);
-            this.btnUsers.TabIndex = 3;
-            this.btnUsers.Text = "Users";
-            this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnAttendance.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAttendance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttendance.Location = new System.Drawing.Point(0, 0);
+            this.btnAttendance.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAttendance.Name = "btnAttendance";
+            this.btnAttendance.Size = new System.Drawing.Size(259, 64);
+            this.btnAttendance.TabIndex = 3;
+            this.btnAttendance.Text = "Attendance Log";
+            this.btnAttendance.UseVisualStyleBackColor = true;
+            this.btnAttendance.Click += new System.EventHandler(this.btnAttendance_Click);
             // 
             // btnlogout1
             // 
             this.btnlogout1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogout1.Location = new System.Drawing.Point(-2, 250);
+            this.btnlogout1.Location = new System.Drawing.Point(0, 190);
             this.btnlogout1.Margin = new System.Windows.Forms.Padding(4);
             this.btnlogout1.Name = "btnlogout1";
             this.btnlogout1.Size = new System.Drawing.Size(264, 64);
@@ -103,18 +103,6 @@
             this.btnlogout1.Text = "Logout";
             this.btnlogout1.UseVisualStyleBackColor = true;
             this.btnlogout1.Click += new System.EventHandler(this.btnlogout1_Click);
-            // 
-            // btnexit
-            // 
-            this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnexit.Location = new System.Drawing.Point(-2, 191);
-            this.btnexit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(264, 64);
-            this.btnexit.TabIndex = 7;
-            this.btnexit.Text = "Exit Application";
-            this.btnexit.UseVisualStyleBackColor = true;
-            this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
             // lbwelcome
             // 
@@ -156,9 +144,8 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbwelcome;
-        private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.Button btnlogout1;
-        private System.Windows.Forms.Button btnUsers;
+        private System.Windows.Forms.Button btnAttendance;
         private System.Windows.Forms.Button btnScanner;
         private System.Windows.Forms.Button btnEvents;
         private System.Windows.Forms.Panel panelContainer;
