@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
-using System.Web;
 using System.Windows.Forms;
 
 
@@ -20,86 +17,66 @@ namespace AP_Project
             tbloginpass.PasswordChar='*';
         }
         private void LoginForm_Load(object sender, EventArgs e)
-        {
-            LoadSubjects();
-            cmboxsubject.SelectedIndex = -1;    
+        { 
         }
 
-        private void LoadSubjects()
+
+        private async void btnlogin_Click(object sender, EventArgs e)
         {
+            string email = txtEmail.Text.Trim();
+            string password = tbloginpass.Text.Trim();
+
+            if (email == "" || password == "")
+            {
+                MessageBox.Show("Please enter email and password");
+                return;
+            }
+
             try
             {
-                DataTable dt = DatabaseHelper.GetAllSubjects();
-                cmboxsubject.DataSource = dt;
-                cmboxsubject.DisplayMember = "subjectname";
-                cmboxsubject.ValueMember = "subjectID";
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error loading subjects: " + ex.Message, "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void btnlogin_Click(object sender, EventArgs e)
-        {
-            if (tbloginname.Text == String.Empty) {
-                MessageBox.Show("Please enter username", "Validation Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                tbloginname.Focus();
-                return;
-            }
-            if (tbloginpass.Text == String.Empty)
-            {
-                MessageBox.Show("Please enter password", "Validation Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                tbloginpass.Focus();
-                return;
-            }
-            if (cmboxsubject.SelectedIndex == -1) { 
-                MessageBox.Show("Please select subject", "Validation Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cmboxsubject.Focus();
-                return;
-            }
-
-            try {
-                bool isValid = DatabaseHelper.ValidateLogin(tbloginname.Text, tbloginpass.Text);
-                if (isValid)
+                using (HttpClient client = new HttpClient())
                 {
-                    DataRow teacher = DatabaseHelper.GetTeacherDetails(tbloginname.Text, tbloginpass.Text);
-                    string teacherID = teacher["teacherID"].ToString();
-                    string teacherName = teacher["tname"].ToString();
+                    var content = new FormUrlEncodedContent(new[]
+                    {
+                        new KeyValuePair<string, string>("email", email),
+                        new KeyValuePair<string, string>("password", password)
+                    });
 
-                    string subjectID = cmboxsubject.SelectedValue.ToString();
-                    string subjectName = cmboxsubject.Text;
-                    MainForm mainForm = new MainForm(teacherID,teacherName,subjectID,subjectName);
-                    mainForm.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid username or password", "Login Failed",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    HttpResponseMessage response =
+                        await client.PostAsync("http://localhost:8080/api/auth/staff_login.php", content);
+
+                    string result = await response.Content.ReadAsStringAsync();
+
+                    JObject doc = JObject.Parse(result);
+
+                    if (doc["status"]?.ToString() == "success")
+                    {
+                        int staffId = (int)doc["data"]["id"];
+                        string name = doc["data"]["name"].ToString();
+                        string role = doc["role"].ToString();
+
+                        MainForm main = new MainForm();
+                        main.SetUser(staffId, name, role);
+
+                        main.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show(doc["message"]?.ToString());
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred: " + ex.Message, "Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("API Error: " + ex.Message);
             }
 
         }
 
         private void chkboxshowpass_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkboxshowpass.Checked) { 
-                tbloginpass.PasswordChar = '\0';
-            }
-            else
-            {
-                tbloginpass.PasswordChar = '*';
-            }
+            tbloginpass.PasswordChar = chkboxshowpass.Checked ? '\0' : '*';
         }
     }
 }

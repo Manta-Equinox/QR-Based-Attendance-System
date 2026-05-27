@@ -1,58 +1,59 @@
-C:\AP 4\AP_Project\bin\Debug\AP_Project.exe.config
-C:\AP 4\AP_Project\bin\Debug\AP_Project.exe
-C:\AP 4\AP_Project\bin\Debug\AP_Project.pdb
-C:\AP 4\AP_Project\obj\Debug\AP_Project.csproj.AssemblyReference.cache
-C:\AP 4\AP_Project\obj\Debug\AP_Project.MainForm.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.LoginForm.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.Properties.Resources.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.csproj.GenerateResource.cache
-C:\AP 4\AP_Project\obj\Debug\AP_Project.csproj.CoreCompileInputs.cache
-C:\AP 4\AP_Project\obj\Debug\AP_Project.exe
-C:\AP 4\AP_Project\obj\Debug\AP_Project.pdb
-C:\AP 4\AP_Project\obj\Debug\AP_Project.exe.config
-C:\AP 4\AP_Project\obj\Debug\AP_Project.ManageStd.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.AtendReports.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.GenCode.resources
-C:\AP 4\AP_Project\obj\Debug\AP_Project.MarkAtend.resources
-C:\AP 4\AP_Project\bin\Debug\QRCoder.dll
-C:\AP 4\AP_Project\bin\Debug\QRCoder.xml
-C:\AP 4\AP_Project\obj\Debug\AP_Project.csproj.Up2Date
-C:\AP 4\AP_Project\bin\Debug\AForge.dll
-C:\AP 4\AP_Project\bin\Debug\AForge.Video.DirectShow.dll
-C:\AP 4\AP_Project\bin\Debug\AForge.Video.dll
-C:\AP 4\AP_Project\bin\Debug\zxing.dll
-C:\AP 4\AP_Project\bin\Debug\zxing.presentation.dll
-C:\AP 4\AP_Project\bin\Debug\AForge.xml
-C:\AP 4\AP_Project\bin\Debug\AForge.Video.xml
-C:\AP 4\AP_Project\bin\Debug\AForge.Video.DirectShow.xml
-C:\AP 4\AP_Project\bin\Debug\zxing.xml
-C:\AP 4\AP_Project\bin\Debug\zxing.presentation.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AP_Project.exe.config
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AP_Project.exe
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AP_Project.pdb
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.Video.DirectShow.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.Video.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\QRCoder.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\zxing.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\zxing.presentation.dll
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.Video.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\AForge.Video.DirectShow.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\QRCoder.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\zxing.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\bin\Debug\zxing.presentation.xml
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.csproj.AssemblyReference.cache
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.exe.config
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.AtendReports.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.GenCode.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.MainForm.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.LoginForm.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.ManageStd.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.MarkAtend.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.Properties.Resources.resources
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.csproj.GenerateResource.cache
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.csproj.CoreCompileInputs.cache
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.csproj.Up2Date
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.exe
-C:\Users\Gadget Gaff\Documents\Sem 4\AP 4\AP_Project\obj\Debug\AP_Project.pdb
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AP_Project.exe.config
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AP_Project.exe
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AP_Project.pdb
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.Video.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\BCrypt-Net-Next.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Google.Protobuf.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\MySql.Data.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\QRCoder.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Buffers.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Memory.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\ZstdSharp.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\zxing.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\zxing.presentation.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.Video.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Google.Protobuf.pdb
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Google.Protobuf.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\MySql.Data.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\QRCoder.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Buffers.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Memory.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\zxing.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\zxing.presentation.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.csproj.AssemblyReference.cache
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.MainForm.resources
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.LoginForm.resources
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.Properties.Resources.resources
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.csproj.GenerateResource.cache
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.csproj.CoreCompileInputs.cache
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.csproj.Up2Date
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.exe
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.pdb
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.EventListControl.resources
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Equinox\OneDrive\Documents\3rdYear_2ndSem\qr-validation\QR-Based-Attendance-System\obj\Debug\AP_Project.exe.config
